@@ -1,0 +1,276 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 23418,
+      "max": [
+        0.67339998483657837,
+        -1.6217000484466553,
+        0.29159998893737793
+      ],
+      "min": [
+        -0.46389999985694885,
+        -4.0703001022338867,
+        -0.51579999923706055
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 281016,
+      "componentType": 5126,
+      "count": 23418,
+      "max": [
+        0.99998396635055542,
+        0.9999808669090271,
+        0.99999266862869263
+      ],
+      "min": [
+        -0.99990451335906982,
+        -0.99997895956039429,
+        -0.99998235702514648
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 23418,
+      "max": [
+        0.99987536668777466,
+        0.9999508261680603,
+        0.99901968240737915,
+        1
+      ],
+      "min": [
+        -0.99976110458374023,
+        -0.99998748302459717,
+        -0.99977928400039673,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 374688,
+      "componentType": 5126,
+      "count": 23418,
+      "max": [
+        0.98823529481887817,
+        0.97254902124404907,
+        0.99215686321258545,
+        1
+      ],
+      "min": [
+        0.062745101749897003,
+        0.043137256056070328,
+        0.043137256056070328,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 23418,
+      "max": [
+        0.99989998340606689,
+        0.99470001459121704
+      ],
+      "min": [
+        9.9999997473787516e-05,
+        0.00019999999494757503
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 120570,
+      "max": [
+        23417
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Scottish Maritime Museum (https://sketchfab.com/ScottishMaritimeMuseum)",
+      "license": "CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)",
+      "source": "https://sketchfab.com/3d-models/figurehead-of-ss-claymore-b0ab7860f4dc437eb3713e2bb24d51cb",
+      "title": "Figurehead of SS \"Claymore\""
+    },
+    "generator": "Sketchfab-7.80.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 482280,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 187344,
+      "byteOffset": 482280,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 562032,
+      "byteOffset": 669624,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 749376,
+      "byteOffset": 1231656,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1981032,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Caymore40K_Material_u1_v1_baseColor.png"
+    },
+    {
+      "uri": "textures/Caymore40K_Material_u1_v1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Caymore40K_Material_u1_v1",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59999999999999998
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.99888515472412109,
+        0,
+        0.047205839306116104,
+        0,
+        0.047203183174133301,
+        -0.010607119649648666,
+        -0.99882900714874268,
+        0,
+        0.00050071801524609327,
+        0.99994373321533203,
+        -0.010595294646918774,
+        0,
+        0.13451316952705383,
+        -2.764094352722168,
+        -2.960899829864502,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Caymore40K.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
